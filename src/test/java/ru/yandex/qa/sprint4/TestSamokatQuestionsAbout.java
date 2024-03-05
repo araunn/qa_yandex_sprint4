@@ -10,7 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import ru.yandex.qa.pageobject.data.MainPageQuestionAbout;
+
+import ru.yandex.qa.sprint4.pageobject.MainPageQuestionAbout;
 
 @RunWith(Parameterized.class)
 public class TestSamokatQuestionsAbout {

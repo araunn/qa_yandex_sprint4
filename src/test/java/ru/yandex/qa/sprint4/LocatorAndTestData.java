@@ -11,7 +11,7 @@ public class LocatorAndTestData {
 	static final String LOCATOR_QUESTION_6 = "accordion__heading-5";
 	static final String LOCATOR_QUESTION_7 = "accordion__heading-6";
 	static final String LOCATOR_QUESTION_8 = "accordion__heading-7";
-	
+
 	static final String LOCATOR_ANSWER_1 = ".//div[@id='accordion__panel-0']/p";
 	static final String LOCATOR_ANSWER_2 = ".//div[@id='accordion__panel-1']/p";
 	static final String LOCATOR_ANSWER_3 = ".//div[@id='accordion__panel-2']/p";
@@ -20,7 +20,7 @@ public class LocatorAndTestData {
 	static final String LOCATOR_ANSWER_6 = ".//div[@id='accordion__panel-5']/p";
 	static final String LOCATOR_ANSWER_7 = ".//div[@id='accordion__panel-6']/p";
 	static final String LOCATOR_ANSWER_8 = ".//div[@id='accordion__panel-7']/p";
-	
+
 	static final String ANSWER_MESSAGE_1 = "Сутки — 400 рублей. Оплата курьеру — наличными или картой.";
 	static final String ANSWER_MESSAGE_2 = "Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим.";
 	static final String ANSWER_MESSAGE_3 = "Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.";

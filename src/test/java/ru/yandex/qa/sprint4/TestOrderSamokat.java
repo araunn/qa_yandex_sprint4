@@ -8,7 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import ru.yandex.qa.pageobject.data.ButtonOrder;
+import ru.yandex.qa.sprint4.pageobject.ButtonOrder;
+
 
 public class TestOrderSamokat {
 	private WebDriver driver;
@@ -55,7 +56,7 @@ public class TestOrderSamokat {
 		testWithUpButtonOrder.aceptCookie();
 		testWithUpButtonOrder.startOrderWithUpButton();
 		testWithUpButtonOrder.forWhyWindow();
-	    testWithUpButtonOrder.forRentWindow();
+	    testWithUpButtonOrder.forRentWindow(); 
 	    testWithUpButtonOrder.youWishOrderWindow();
 	    assertEquals (LocatorAndTestData.ORDER_COMPLITE_MASSAGE,testWithUpButtonOrder.getTextOrderComplit().substring(0,LocatorAndTestData.ORDER_COMPLITE_MASSAGE.length()));
 	}
